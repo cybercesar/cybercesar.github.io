@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+#wrapper { 
+
+background-image: url(Pictures/gradient.jpg); 
+           color: #FFFFFF;
+           width: 80%;
+		   margin: auto;
+           min-width: 960px;
+		   max-width: 1200px;
+		   box-shadow: 3px 3px 3px #333; }
+		   
+ body {background-color: #4d0000;
+		text-align: center;}
+
+	
+
+table { border= "3";
+	width="5000";
+
+}
+
+iframe{
+    border-width: 0px;
+width="800"; height="600";
+}
+		
+		img {
+			border= 0;
+		}
+
+nav {  background-color: #ff0000; 
+	   letter-spacing: 0.1em;
+	   font-weight: bold;
+	   text-align: center; 
+	   padding-right: 2em;
+	   position: relative;
+} 
+nav ul { list-style-type: none; 
+        margin: 0;
+}
+nav ul ul { position: absolute; 
+        background-color: #4d0000; 
+		padding: 0; 
+		text-align: left; 
+		display: none; }
+nav ul ul li { border: 1px solid #4d0000; 
+          display: block; 
+		  width: 8em; 
+		  padding-left: 1em; 
+		  margin-left: 0; }
+nav li:hover ul { display: block;}
+nav li { padding: 0.5em;
+      display: inline-block;
+}
+nav a { text-decoration: none; 
+       display: block;
+}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover {  color: #D3DBEB;}
+main { background-color: #ffffff;
+           color: #000000;
+		   padding: 90px 30px;
+	       overflow: auto; 
+		   min-height: 400px;
+} 
+a:link {text-decoration: none;}
+#table {
+	
+}

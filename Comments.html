@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cesar Castro</title>
+<meta charset="utf-8">
+<style>
+form { 
+       padding: 10px; }
+       label { float: left;
+      width: 100px; 
+        clear: left;
+      text-align: right; 
+      padding-right: 10px;
+      margin-top: 10px; }
+input, textarea { margin-top: 10px; 
+                  display: block; } 
+</style>
+
+<link rel="stylesheet" href="styles.css" >
+
+</head>
+
+<body>
+<div id= "wrapper">
+ <header>
+   <h1>Cesar Castro</h1>
+ </header>
+  <nav>
+    <ul>
+   <li><a href="index.html">Home</a></li>
+     <li><a href="Media.html">Media</a>
+       <ul>
+         <li><a href="Pictures.html">Pictures</a></li>
+         <li><a href="Videos.html">Videos</a></li>
+        
+       </ul>
+   </li>
+     
+     <li><a href="events.html">My Events</a></li>
+     <li><a href="Education.html">Education</a></li>
+     <li><a href="certifications.html">Certifications</a></li>
+     <li><a href="Comments.html">Contact</a></li>
+      
+        </ul>     </nav> <main>
+
+<h2>Send me an email (Does not work yet)</h2>
+<form    action="http://webdevbasics.net/scripts/demo.php" method="post">
+  <label for="Name">Name:</label>
+  <input type="text" name="Name" id="Name">
+  <label for="myEmail">E-mail:</label>
+  <input type="text" name="myEmail" id="myEmail">
+  <label for="Comments">Comments:</label>
+  <textarea name="Comments" id="Comments" rows="5" cols="20"></textarea>
+  <input id="mySubmit" type="submit" value="Submit">
+</form>
+
+
+
+  </main>
+  <footer>
+This website was last updated on 
+<script>
+document.write(document.lastModified);
+</script>
+  <br>
+  Copyright &copy; Cesar Castro <br>
+  </footer>
+</div>
+</body>
+</html>
